@@ -7,13 +7,8 @@ mostly as an excuse to try it out.
 ## Building
 
 After [installing Typst](https://github.com/typst/typst#installation) and the Computer Modern font family, 
-you can build with:
+you can build with `make`
 
-```
-typst compile resume.typ resume.pdf
-```
+## Simple Customization
 
-## Customization
-
-Obviously the source code in `resume.typ` can be changed as needed,
-but some variables for simple customizations (colors, long vs. short) are defined at the top of the file.
+Some variables for simple customizations (colors, long vs. short) are defined at the top of `src/resume.typ`.
